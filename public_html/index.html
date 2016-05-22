@@ -4,13 +4,237 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="rest.css">
+ </head>
+ <body 
+ background="cinza.jpg"
+
+
+ 
+ 
+>
+  <form
+  
+ 
+  >
+    <table
+        border="1"   >
+      
+      <tr>
+      <td>
+    
+ 
+   <table 
+    border="0" 
+    cellpadding="5" 
+    cellspacing="5"
+   >
+    <tr>
+      <td bgcolor="#10245e"colspan="2"   width="1000"      
+          height="20">
+        <font color="white">
+          <center>
+            CADASTRO DE FUNCIONARIO
+          </center>  
+        </font>
+        
+      </td>                
+    </tr>
+   
+     <tr>         
+       <td align="right" >
+			NOME:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="50" value="" maxlength="50">         </td> 
+     </tr>
+     <tr>         
+       <td align="right" >
+        DATA DE NASC.:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="20" value="01/01/2000" maxlength="10">         
+	   </td> 
+     </tr>
+	  <tr>         
+        <td align="right">
+         SEXO:*
+        </td>
+      <td>
+        <input type="radio" name="sexo" value="M">MASCULINO 
+        <input type="radio" name="sexo" value="F">FEMININO
+           
+      </td> 
+    </tr>
+     <tr>         
+       <td align="right">
+         CPF:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="15" value="000.000.000-00" maxlength="14">         
+	   </td> 
+     </tr>
+     <tr>         
+       <td align="right" >
+        ENDEREÇO:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="50" value="Rua,Av.,Al.,0000" maxlength="50">         </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         BAIRRO:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="25" value="Marco" maxlength="50">              
+       </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         CIDADE:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="25" value="BELÉM" maxlength="50">
+         <select
+                 name="Estados"
+                 value="PA"
+                 size="1"
+           >
+             <option value="AC">AC</option>
+             <option value="AL">AL</option>
+             <option value="AM">AM</option>
+             <option value="AP">AP</option>
+             <option value="BA">BA</option>
+             <option value="CE">CE</option>
+             <option value="DF">DF</option>
+             <option value="ES">ES</option>
+             <option value="GO">GO</option>
+             <option value="MA">MA</option>
+             <option value="MG">MG</option>
+             <option value="MS">MS</option>
+             <option value="MT">MT</option>
+             <option value="PA">PA</option>
+             <option value="PB">PB</option>
+             <option value="PE">PE</option>
+             <option value="PI">PI</option>
+             <option value="PR">PR</option>
+             <option value="RJ">RJ</option>
+             <option value="RN">RN</option>
+             <option value="RO">RO</option>
+             <option value="RR">RR</option>
+             <option value="RS">RS</option>
+             <option value="SC">SC</option>
+             <option value="SE">SE</option>
+             <option value="SP">SP</option>
+             <option value="TO">TO</option>
+           </select>
+
+         
+       </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         CEP:
+       </td>
+       <td>
+         <input type="text" name="CEP" size="15" value="66095-400" maxlength="50">         
+	   </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         E-mail:
+       </td>
+       <td>
+         <input type="email" name="nome" size="25" value="email@unama.br" maxlength="40">         
+	   </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         FONE 1:*
+       </td>
+       <td>
+         <input type="text" name="nome" size="15" value="0000-0000" maxlength="8">         
+       </td> 
+     </tr>
+	 <tr>         
+       <td align="right">
+         FONE 2:
+       </td>
+       <td>
+         <input type="text" name="nome" size="15" value="0000-0000" maxlength="8">         
+       </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         CELULAR:
+       </td>
+       <td>
+         <input type="text" name="nome" size="15" value="0000-0000" maxlength="8">         </td> 
+     </tr>
+     <tr>         
+       <td align="right">
+         FUNÇÃO:*
+       </td>
+       <td>
+        <select
+                 name="Estados"
+                 value="PA"
+                 size="1"
+           >
+             
+             <option value="COZINHEIRO">COZINHEIRO</option>
+             <option value="ENTREGADOR">ENTREGADOR</option>
+             <option value="ESTOQUISTA">ESTOQUISTA</option>
+             <option value="GARÇOM">GARÇOM</option>
+             <option value="OP. DE CAIXA">OP. DE CAIXA</option>
+     
+           </select>
+     </tr>
+     <tr>         
+       <td align="right">
+         SALARIO BASE: R$
+       </td>
+       <td>
+         <input type="text" name="nome" size="15" value="0000,00" maxlength="14"> 
+       </td> 
+     </tr>
+     
+    <tr> 
+      
+      <td bgcolor="#10245e" colspan="2" align="right">
+        <center>
+        <input type="submit" value="<<Voltar">
+        <input type="submit" value="Limpar">
+        <input type="reset" value="Salvar">
+        </center>
+      </td>
+    </tr>
+     <tr> 
+
+       <td bgcolor="" colspan="2" align="right">
+         <center>
+          
+            
+           <h6>* Campos de preenchimento obrigatório.</h6>
+         </center>
+       </td>
+     </tr>
+   
+   </table> 
+        </td>
+      </tr>
+    </table>
+  </form>
+
+ </body>
+
 </html>
+    
+    
+  
+
+
